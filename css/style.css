@@ -8,7 +8,7 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
-.map1{
+.map{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -16,7 +16,7 @@ body{
 img.menu, map area{
     outline: none;
 }
-img.map1, map area{
+img.map, map area{
     outline: none;
 }
 
