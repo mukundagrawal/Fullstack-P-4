@@ -43,3 +43,66 @@ img.map, map area{
     padding-right: 1%;
     padding-bottom: 1%;
 }
+.box{
+    background-color: lightgreen;
+    width:100%;
+}
+.box h1{
+    text-align:center;
+    font-style: bold; 
+    color:gray;
+    font-size:xx-large;
+}
+
+.card {
+    background-color:rgb(199, 253, 251);
+    float: left;
+    border-radius: 10px;
+    width: 20%;
+    margin: 20px 15px;
+    padding: 15px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.card h2 {
+    text-align: center;
+    margin: 5px 10px;
+    font-style: oblique;
+    color: mediumblue;
+}
+
+.card p {
+    text-align: justify;
+    font-size: 20px;
+    line-height: 28px;
+    margin: 15px 10px;
+    color:darkcyan;
+    font-style: italic;
+}
+
+.card a {
+    color:gray;
+    background-color:greenyellow;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    margin: 5px auto;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.card a:hover {
+    background-color: blue;
+}
+@media screen and(max-width:600px){
+    .card{
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
