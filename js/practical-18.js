@@ -29,7 +29,7 @@ function checkInput(){
     }
     else if(!isEmailValid(emailValue))
     {
-        showError(email,"Email is not Valid");
+        showError(email,"Email is  invalid");
     }
     else
     {
